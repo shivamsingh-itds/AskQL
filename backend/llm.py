@@ -8,6 +8,7 @@ def generate_sql(question: str, schema: dict) -> str:
         [f"- {col['name']} ({col['type']}, e.g. {col['sample']})"
          for col in schema["columns"]]
     )
+   
     
     prompt = f"""You are a SQL expert. The user has a table called `uploaded_data` with these columns:
 {schema_text}
