@@ -1,0 +1,1 @@
+# ASkQL - Application to comunicate with database using LLMs
