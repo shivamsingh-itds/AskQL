@@ -41,3 +41,4 @@ Write exactly 2 sentences explaining what this result means for the business. Be
         messages=[{"role": "user", "content": prompt}]
     )
     return message.content[0].text.strip()
+
