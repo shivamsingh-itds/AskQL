@@ -42,3 +42,5 @@ Write exactly 2 sentences explaining what this result means for the business. Be
     )
     return message.content[0].text.strip()
 
+
+
