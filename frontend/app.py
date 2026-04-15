@@ -55,3 +55,6 @@ for msg in st.session_state.history:
                 # Show SQL — this is your standout feature
                 with st.expander("🔍 SQL query generated"):
                     st.code(d["sql"], language="sql")
+
+
+                    
